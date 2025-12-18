@@ -10,7 +10,7 @@ const buy=document.querySelectorAll("#buy");
 //         window.location='./src/pages/checkOut.html'
 //     });
 // })
-const url="http://localhost:5000";
+const url="https://e-commerce-server-25cx.onrender.com";
 
 
 products.forEach(product=>{
@@ -87,5 +87,6 @@ response.data.products.forEach(product=>{
         console.log("error in loading products",error.message);
     }
 }
+
 
 
