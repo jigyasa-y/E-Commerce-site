@@ -3,7 +3,7 @@ const totalEarning=document.querySelector("#total-earnings").value;
 const toast=document.querySelector(".toast");
 const del=document.querySelector("#delete");
 const totalOrders=document.querySelector("#total-orders").value;
-const url="http://localhost:5000";
+const url="https://e-commerce-server-25cx.onrender.com";
 const totalListedOrders=document.querySelector("#total-products").value;
 
 del.addEventListener("click",()=>{
@@ -50,5 +50,6 @@ catch(error){
   console.log("error in message",error.message);
 }
 });
+
 
   
