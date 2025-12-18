@@ -16,7 +16,7 @@
         const loginEmail= document.getElementById("login-email");
         const loginPassword= document.getElementById("login-password");
         const loginBtn= document.getElementById("login-submit-btn");
-     const url="http://localhost:5000";
+     const url="https://e-commerce-server-25cx.onrender.com";
 
 
         // use event to track button and input.
@@ -86,4 +86,5 @@ showLoginBtn.addEventListener('click', function() {
 
     loginForm.style.display="block";
     signupForm.style.display="none";
+
 });
