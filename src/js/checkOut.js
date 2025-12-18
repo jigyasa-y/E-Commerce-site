@@ -20,7 +20,7 @@ window.onload=()=>{
 const productDetails=async()=>{
 
   try{
-const response=await axios.post ("http://localhost:5000/api/products/getProductDetails",{productId});
+const response=await axios.post ("https://e-commerce-server-25cx.onrender.com/api/products/getProductDetails",{productId});
 
 const product=response.data.product;
 
@@ -63,5 +63,6 @@ tax.textContent=`$${pricingDetails.tax}`;
 total.textContent=`$${pricingDetails.price+pricingDetails.tax}`;
 pay_btn.textContent=`Pay ${total.textContent}`;
 }
+
 
 
